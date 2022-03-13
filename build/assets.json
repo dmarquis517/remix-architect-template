@@ -1,0 +1,67 @@
+{
+  "version": "25906500",
+  "entry": {
+    "module": "/_static/build/entry.client-EC5DIVZJ.js",
+    "imports": [
+      "/_static/build/_shared/chunk-E7VMOUYL.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/_static/build/root-24KIXFXS.js",
+      "imports": [
+        "/_static/build/_shared/chunk-NLHOACNL.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": true,
+      "hasErrorBoundary": true
+    },
+    "routes/contact/index": {
+      "id": "routes/contact/index",
+      "parentId": "root",
+      "path": "contact",
+      "index": true,
+      "module": "/_static/build/routes/contact/index-3W4WS22K.js",
+      "hasAction": true,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/_static/build/routes/index-PEIMN2FH.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/portfolio/index": {
+      "id": "routes/portfolio/index",
+      "parentId": "root",
+      "path": "portfolio",
+      "index": true,
+      "module": "/_static/build/routes/portfolio/index-B57PA6QM.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/services/index": {
+      "id": "routes/services/index",
+      "parentId": "root",
+      "path": "services",
+      "index": true,
+      "module": "/_static/build/routes/services/index-GTSAVPAL.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    }
+  },
+  "url": "/_static/build/manifest-25906500.js"
+}

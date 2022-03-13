@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "remix-app-template-js",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "npm run build:css && remix build",
+    "build:css": "npx tailwindcss -o ./app/tailwind.css --minify",
+    "dev": "concurrently \"npm run dev:css\" \"remix dev\" \"arc sandbox\"",
+    "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
+    "postinstall": "remix setup node",
+    "start": "arc sandbox"
+  },
+  "dependencies": {
+    "@architect/architect": "^10.0.5",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@remix-run/architect": "^1.2.3",
+    "@remix-run/react": "^1.2.3",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "aws-sdk": "2.888.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.2.3"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.2.3",
+    "@remix-run/serve": "^1.2.3",
+    "concurrently": "^7.0.0",
+    "tailwindcss": "^3.0.23"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
